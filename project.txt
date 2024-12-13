@@ -1,0 +1,4 @@
+/project
+    /css
+        style.css
+    index.php

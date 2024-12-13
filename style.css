@@ -1,0 +1,76 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #f0f2f5; /* Warna latar belakang yang lembut */
+    font-family: 'Arial', sans-serif; /* Font yang bersih dan modern */
+}
+
+/* Navigasi Bar */
+.navbar {
+    background-color: #007bff; /* Warna biru untuk navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* Warna teks putih untuk navbar */
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important; /* Warna kuning saat hover */
+}
+
+/* Kontainer */
+.container {
+    margin-top: 50px; /* Jarak atas untuk kontainer */
+    background-color: #ffffff; /* Latar belakang putih untuk kontainer */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    padding: 30px; /* Padding di dalam kontainer */
+}
+
+/* Judul */
+h2 {
+    color: #343a40; /* Warna teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+/* Formulir */
+.form-group label {
+    font-weight: bold; /* Label tebal */
+}
+
+.form-control {
+    border-radius: 5px; /* Sudut melengkung untuk input */
+    border: 1px solid #ced4da; /* Border abu-abu */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Warna border saat fokus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Bayangan saat fokus */
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+/* Teks Hasil */
+h3 {
+    margin-top: 30px; /* Jarak atas untuk hasil */
+    color: #343a40; /* Warna teks hasil */
+}
+
+p {
+    margin: 5px 0; /* Jarak vertikal untuk paragraf */
+}
